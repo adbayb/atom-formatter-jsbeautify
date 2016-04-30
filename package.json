@@ -1,0 +1,28 @@
+{
+  "name": "atom-formatter-jsbeautify",
+  "main": "./lib/init",
+  "version": "1.0.0",
+  "description": "Formatter plugin providing js-beautify interface for Atom editor",
+  "keywords": [
+    "atom",
+    "formatter",
+    "js-beautify",
+    "jsbeautify",
+    "html",
+    "css",
+    "less",
+    "sass",
+    "js",
+    "json",
+    "jsx"
+  ],
+  "repository": "https://github.com/ayoubdev/atom-formatter-jsbeautify",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  }
+}
