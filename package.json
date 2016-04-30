@@ -17,12 +17,22 @@
     "jsx"
   ],
   "repository": "https://github.com/ayoubdev/atom-formatter-jsbeautify",
+  "author": "Ayoub Adib <ayoub.development@gmail.com>",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "js-beautify": "^1.6.2"
+  },
   "devDependencies": {
     "eslint": "^2.9.0"
+  },
+  "providedServices": {
+    "formatter": {
+      "versions": {
+        "1.0.0": "provideFormatter"
+      }
+    }
   }
 }
