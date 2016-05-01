@@ -1,0 +1,26 @@
+a.myAnchor {
+	color: purple;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:visited {
+		color: yellow;
+	}
+}
+
+.test {
+	.text {
+		font-size: 1.4rem;
+	}
+	.button {
+		font-size: 1.7rem;
+	}
+	.test2 {
+		.text {
+			font-size: 1.2rem;
+		}
+		.button {
+			font-size: 1.4rem;
+		}
+	}
+}
