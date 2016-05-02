@@ -1,7 +1,7 @@
 {
   "name": "atom-formatter-jsbeautify",
   "main": "./lib/init",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Formatter plugin adding a js-beautify interface to the Atom editor. Format and Reindent your Javascript (JS), JSX, JSON, HTML, XML, CSS, SASS, SCSS, LESS files",
   "keywords": [
     "atom",
