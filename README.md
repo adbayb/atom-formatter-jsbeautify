@@ -1,5 +1,5 @@
 # atom-formatter-jsbeautify
-
+<br/>
 
 Formatter plugin adding a js-beautify interface to the Atom editor.
 This plugin can reformat and reindent your source code with a bunch of accepted file formats:
@@ -18,7 +18,7 @@ This plugin can reformat and reindent your source code with a bunch of accepted 
 <br/>
 ## Usage:
 <br/>
-#### Keybindings:
+### Keybindings:
 
 It takes the default keybindings from Formatter. E.g, by default (you can customize these in the Atom keymap.cson):
 
@@ -28,7 +28,7 @@ It takes the default keybindings from Formatter. E.g, by default (you can custom
   'alt-cmd-l': 'formatter:format-code'
 ```
 
-#### Configurations:
+### Configurations:
 
 By default, it loads configurations from .jsbeautifyrc file. **This file must be located in the root of your project folder to be taken into account.**<br/>
 Whenever the file isn't found, an error popup will be displayed. The code will then be beautified thanks to the default js-beautify configurations.
